@@ -1,0 +1,22 @@
+{
+  "name": "automation-js-lessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "playwright:test:headless": "playwright test",
+    "playwright:test:headed": "playwright test --headed",
+    "playwright:test:headed:chrome": "playwright test --headed --project=chrome",
+    "playwright:test:headed:firefox": "playwright test --headed --project=firefox",
+    "playwright:test:headed:webkit": "playwright test --headed --project=webkit",
+    "playwright:ui": "playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.13"
+  }
+}
